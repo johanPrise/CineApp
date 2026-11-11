@@ -1,0 +1,40 @@
+# Gradle & Build outputs
+.gradle/
+build/
+**/build/
+*.apk
+*.aar
+*.aab
+*.dex
+*.class
+
+# Local configuration & secrets
+local.properties
+secrets.properties
+
+# Android Studio / IntelliJ IDEA
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usageView.xml
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/deploymentTargetSelector.xml
+.idea/shelf/
+*.iml
+
+# Native build & profiling
+.externalNativeBuild/
+.cxx/
+captures/
+*.hprof
+
+# Key stores & signing
+*.jks
+*.keystore
+
+# Operating System files
+.DS_Store
+Thumbs.db
