@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1030428503753",
+    "project_id": "cineapp-esgi-2026",
+    "storage_bucket": "cineapp-esgi-2026.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030428503753:android:2f6830a0876748c12a6718",
+        "android_client_info": {
+          "package_name": "fr.esgi.cineapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH2g0O1UBnnWqLkLH31sLdkBoO1_6TX70"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
