@@ -14,14 +14,9 @@ data class Movie(
     val voteCount: Int = 0,
     val runtime: Int? = null,
     val originalLanguage: String? = null,
-    val genres: List<Genre> = emptyList()
-) {
-    val fullPosterUrl: String?
-        get() = posterPath?.let { "https://image.tmdb.org/t/p/w500$it" }
-
-    val fullBackdropUrl: String?
-        get() = backdropPath?.let { "https://image.tmdb.org/t/p/w780$it" }
-}
+    val genres: List<Genre> = emptyList(),
+    val videos: List<Video> = emptyList()
+)
 
 /**
  * Genre d'un film (Action, Comédie, etc.)

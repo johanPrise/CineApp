@@ -9,7 +9,8 @@ data class Video(
     val name: String,
     val site: String, // "YouTube"
     val type: String, // "Trailer", "Teaser", etc.
-    val official: Boolean = false
+    val official: Boolean = false,
+    val language: String? = null
 ) {
     val youtubeUrl: String
         get() = "https://www.youtube.com/watch?v=$key"
